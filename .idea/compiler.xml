@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-common" />
+        <module name="api-feign" />
+        <module name="api-gateway" />
+        <module name="api-interface" />
+        <module name="eurekaserver" />
+        <module name="order-service" />
+        <module name="user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-common" target="1.8" />
+      <module name="api-feign" target="1.8" />
+      <module name="api-gateway" target="1.8" />
+      <module name="api-interface" target="1.8" />
+      <module name="cloud-demo" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="feignapi" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="order-service" target="1.8" />
+      <module name="user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
