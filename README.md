@@ -3,6 +3,7 @@
 
 项目介绍：基于React+Spring Boot+ Feign + Gateway +Redis+SpringSecurity+RabbitMQ的接口开放调用平台。管理员可以接入并发布接口，可视化各接
 口调用情况,实现接口调用次数排行榜；用户可以调用天气信息、IP定位、生成心灵鸡汤赞美、快速发短信等功能。
+
 主要职责
 
 · 基于 Spring Security、RBAC权限模型，实现访问控制、权限管理。
