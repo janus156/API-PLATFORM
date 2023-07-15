@@ -14,6 +14,8 @@
 
 · 使用Redis生成nonce、timestamp避免重放攻击，确保接口调用的安全性。
 
+· 使用用户id、接口id、接口参数作为唯一值配合Redis+AOP+注解防止短时间内重复调用接口。
+
 · 基于Spring Boot Starter 开发了客户端 SDK，一行代码 即可调用接口，方便调用接口。
 
 · 使用Swagger+knife4j生成OpenAPI规范的文档，便于前后端协调。
