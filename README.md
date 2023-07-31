@@ -1,5 +1,5 @@
 # API-PLATFORM
-开放接口平台升级版
+开放接口平台
 
 项目介绍：基于React+Spring Boot+ Dubbo + Gateway +Redis+SpringSecurity+RabbitMQ的接口开放调用平台。管理员可以接入并发布接口，可视化各接
 口调用情况,实现接口调用次数排行榜；用户可以调用天气信息、IP定位、生成心灵鸡汤赞美、快速发短信等功能。
